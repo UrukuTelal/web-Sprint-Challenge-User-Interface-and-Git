@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -64,6 +65,25 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+header {
+    display:flex;
+    width: 800px;
+    margin: 0 auto;
+}
+.logo {
+    width:40%;
+    
+}
+.nav{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    
 }
 
 .container {
@@ -125,6 +145,31 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-page{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+}
+.jumbo{
+    width:100%;
+}
+.about{
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+.strategy{
+    width: 50%;
+    flex-wrap:row;
+    border-bottom: 1px dashed black;
+}
+.working{
+    width: 50%;
+    flex-wrap:row;
+    border-bottom: 1px dashed black;
+}
+
 
 footer {
     width: 100%;

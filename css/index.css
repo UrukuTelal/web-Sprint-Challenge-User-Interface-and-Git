@@ -83,6 +83,7 @@ header {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 .container {
@@ -144,6 +145,31 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-page{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    
+}
+.jumbo{
+    width:100%;
+}
+.about{
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+.strategy{
+    width: 50%;
+    flex-wrap:row;
+    border-bottom: 1px dashed black;
+}
+.working{
+    width: 50%;
+    flex-wrap:row;
+    border-bottom: 1px dashed black;
+}
+
 
 footer {
     width: 100%;
